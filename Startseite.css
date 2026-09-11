@@ -5,8 +5,100 @@ body {
   color: whitesmoke;
 }
 
+nav a:hover{
+  background-color: beige;
+}
+
+nav{
+  margin-left: 34%;
+}
+
+body {
+  margin: 0;
+  background: #080808;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+
+  margin: 0;
+  padding: 18px 5%;
+  background: #0d0d0d;
+  border: none;
+  border-bottom: 1px solid #393124;
+}
+
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.brand img {
+  display: block;
+  width: 64px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.site-nav a {
+  padding: 12px 16px;
+  border-radius: 6px;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: #d8b878;
+  background: #211d15;
+}
+
+.site-header a:focus-visible {
+  outline: 2px solid #d8b878;
+  outline-offset: 4px;
+}
+
+@media (max-width: 700px) {
+  .site-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .site-nav {
+    justify-content: center;
+  }
+
+  .site-nav a {
+    padding: 10px;
+  }
+
+  .marken {
+    grid-template-columns: 1fr;
+  }
+}
+
 .logo{
-    margin-left: 85% ;
+     width: 70px ;
 }
 
 .menu-button {
@@ -73,11 +165,4 @@ header {
 
 .marken-box a:hover {
   background-color: #eee;
-}
-
-
-@media (max-width: 650px) {
-  .marken {
-    grid-template-columns: 1fr;
-  }
 }

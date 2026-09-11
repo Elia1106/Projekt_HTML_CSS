@@ -1,0 +1,18 @@
+.rechtliches {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 24px;
+  line-height: 1.6;
+}
+.rechtliches h1 { font-size: 32px; }
+.rechtliches h2 { margin-top: 28px; font-size: 21px; }
+.rechtliches address { font-style: normal; }
+.rechtliches a, .rechtliches-footer a { color: #d8b878; }
+.offen { border-left: 3px solid #d8b878; padding: 10px 16px; background: #191919; }
+.rechtliches-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px 5%;
+  border-top: 1px solid #555;
+}

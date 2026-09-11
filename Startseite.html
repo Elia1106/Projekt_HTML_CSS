@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carvision – Startseite</title>
     <link rel="stylesheet" href="Startseite.css">
+    <link rel="stylesheet" href="bugatti.css">
 </head>
 
 <body>
 
       
+<section class="startseite" aria-labelledby="hero-title">
+  <img class="allcars" src="Bilder/Allcars.png" alt="Koenigsegg, Bugatti und Pagani in einer dunklen Halle" fetchpriority="high">
 <header class="site-header">
   <a class="brand" href="Startseite.html">
     <img src="Bilder/Carvision.jpg" alt="">
@@ -24,47 +27,51 @@
   </nav>
 </header>
 
-  <h1>Drei Marken. Eine Leidenschaft.</h1> 
-  <p>Entdecke Bugatti, Pagani und Koenigsegg bei Carvision.</p>
+  <div class="hero-text">
+    <h1 id="hero-title">Drei Marken. Eine Vision.</h1>
+    <p>Entdecke Bugatti, Pagani und Koenigsegg bei Carvision.</p>
+  </div>
+ 
+</section>
 
-<img class="allcars" src="Bilder/Allcars.png" alt="Alle 3 Automarken">
-
-    </div>
-
-<div class="marken">
+<main id="marken"><div class="marken">
   <article class="marken-box">
-    <img src="/Bilder/Bugatti logo.png" alt="Bugatti">
+    <img class="Border" src="Bilder/Bugatti logo.png" alt="Bugatti">
 
     <h2>Bugatti</h2>
-    <p>Kurze Vorstellung der Marke.</p>
+    <p>Bugatti steht für luxuriöse Supersportwagen mit enormer Leistung. Elegantes Design und edle Materialien machen jedes Modell zu etwas Besonderem.</p>
 
     <a href="bugatti.html">Mehr erfahren →</a>
   </article>
 
   <article class="marken-box">
-    <img src="Bilder/Pagani logo.png" alt="Pagani">
+    <img class="Border" src="Bilder/Pagani logo.png" alt="Pagani">
 
     <h2>Pagani</h2>
-    <p>Kurze Vorstellung der Marke.</p>
+    <p>Pagani verbindet italienische Handwerkskunst mit beeindruckender Technik. Exklusive Supersportwagen aus Carbon begeistern mit aussergewöhnlichem Design und viel Liebe zum Detail.</p>
 
     <a href="Pagani.html">Mehr erfahren →</a>
   </article>
 
   <article class="marken-box">
-    <img src="Bilder/Koenigsegg logo.png" alt="Koenigsegg">
+    <img class="Border" src="Bilder/koenigsegg logo.png" alt="Koenigsegg">
 
-    <h2>Pagani</h2>
-    <p>Kurze Vorstellung der Marke.</p>
+    <h2>Koenigsegg</h2>
+    <p>Koenigsegg entwickelt in Schweden Supersportwagen voller innovativer Technik. Leichte Materialien und kraftvolle Motoren sorgen für beeindruckende Leistung und ein unverwechselbares Fahrerlebnis.</p>
 
     <a href="Koenigsegg.html">Mehr erfahren →</a>
   </article>
 
 </div>
 
-<footer></footer>
+</main>
 
 
+<footer>
 
+  <a href="Impresum.html">Impresum</a>
+
+</footer>
 
 
 </body>

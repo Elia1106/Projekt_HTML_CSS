@@ -4,6 +4,83 @@ body {
     color: white;
 }
 
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+
+  margin: 0;
+  padding: 18px 5%;
+  background: #0d0d0d;
+  border: none;
+  border-bottom: 1px solid #393124;
+}
+
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.brand img {
+  display: block;
+  width: 64px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.site-nav a {
+  padding: 12px 16px;
+  border-radius: 6px;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: #d8b878;
+  background: #211d15;
+}
+
+.site-header a:focus-visible {
+  outline: 2px solid #d8b878;
+  outline-offset: 4px;
+}
+
+@media (max-width: 700px) {
+  .site-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .site-nav {
+    justify-content: center;
+  }
+
+  .site-nav a {
+    padding: 10px;
+  }
+
+  .marken {
+    grid-template-columns: 1fr;
+  }
+}
+
 .BugattiSS {
   display: flex;
   align-items: center;

@@ -92,6 +92,24 @@ body {
   gap: 20px;
 }
 
+.BugattiVeyron {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.BugattiVeyron img {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+.BugattiVeyron p {
+  flex: 1;
+  min-width: 0;
+}
+
 .logo{
     margin-left: 85%;
 }

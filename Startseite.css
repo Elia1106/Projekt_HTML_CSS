@@ -211,6 +211,22 @@ a:focus-visible {
   }
 }
 
-impresum{
+footer{
+  border-top: solid#d8b878;
+  padding: 40px;
+  
+}
 
+.impressum, .datenschutz {
+  text-decoration: none;
+  color:#d8b878;
+}
+
+.impressum:hover
+{
+  color: #ccc;
+}
+
+.datenschutz:hover{
+  color: #d8b878;
 }

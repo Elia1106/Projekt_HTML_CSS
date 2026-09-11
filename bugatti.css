@@ -123,7 +123,8 @@ header {
 }
 
 .BugattiBolide img {
-  width: 50%;
+  width: 49%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -160,4 +161,13 @@ header {
 .Link-button:hover {
   background-color: gray;
   color: white;
+}
+
+h2{
+
+}
+
+.Titel-Bugatti{
+  margin-bottom: 50px;
+  text-align: center ;
 }
